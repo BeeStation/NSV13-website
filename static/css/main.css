@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+:root {
+	--nsv-white: #f7f7f7;
+	--nsv-blue: #0099ff;
+
+	--nsv-font-size-fine: 10px;
+	--nsv-font-size-body: 14px;
+	--nsv-font-size-title: 24px;
+	--nsv-font-size-mega: 40px;
+
+	--nsv-font-face-display: 'Audiowide';
+	--nsv-font-face-body: 'Arial';
+	--nsv-font-face-pixel: 'Press Start 2P'
+}
+
+* {
+	font-family: var(--nsv-font-face-body);
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
