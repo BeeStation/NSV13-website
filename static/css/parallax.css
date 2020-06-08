@@ -4,6 +4,7 @@
 	display: float;
 	position: absolute;
 	background-image: url("/static/img/parallax1.png"), url("/static/img/parallax2.png"), url("/static/img/parallax3.png");
+	background-color: black; /*If for some reason the webp fails, which it is on mobile for some fucked up reason, just fallback.*/
 	background-repeat: repeat, repeat, repeat;
 	background-blend-mode: lighten, lighten, lighten;
 	animation: space-parallax linear 100s infinite forwards;
