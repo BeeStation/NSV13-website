@@ -74,7 +74,7 @@
 
 	<script>
 		function updatePlayerCount(){
-			$.getJSON("https://beestation13.com/api/stats/nsv_tupelo", function(json){
+			$.getJSON("https://api.beestation13.com/stats/nsv_tupelo", function(json){
 				$("#playercount").html(json["players"]);
 			});
 		}
